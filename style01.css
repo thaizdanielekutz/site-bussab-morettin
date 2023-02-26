@@ -1,0 +1,210 @@
+@charset "UTF-8";
+
+@import url("https://fonts.googleapis.com/css2?family=Albert+Sans:ital,wght@0,600;0,700;0,800;0,900;1,600;1,700;1,800;1,900&family=Nunito+Sans:ital,wght@0,200;0,300;0,400;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,600;1,700;1,800;1,900&family=Pacifico&family=Work+Sans:ital,wght@0,100;0,200;0,300;0,600;0,900;1,100;1,200;1,300;1,500;1,600;1,800;1,900&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Albert+Sans:ital,wght@0,600;0,700;0,800;0,900;1,600;1,700;1,800;1,900&family=Fjalla+One&family=Nunito+Sans:ital,wght@0,200;0,300;0,400;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,600;1,700;1,800;1,900&family=Pacifico&family=Shantell+Sans:ital,wght@0,500;0,600;1,400;1,500&family=Work+Sans:ital,wght@0,100;0,200;0,300;0,600;0,900;1,100;1,200;1,300;1,500;1,600;1,800;1,900&display=swap");
+
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+:root {
+  --cor01: #1579b3;
+  --cor02: #2539e8;
+  --cor03: #0e66c9;
+  --cor04: #149dff;
+  --cor05: #1b3b8d;
+
+  --font01: "Albert Sans";
+  --font02: "Fjalla One";
+  --font03: Arial, Verdana, Helvetica, sans-serif;
+  --font04: "Nunito Sans";
+}
+
+body {
+  height: 100%;
+  min-width: 100%;
+  position: relative;
+}
+
+header {
+  background-image: linear-gradient(to bottom, var(--cor03), var(--cor01));
+  min-height: 70px;
+  padding-top: 30px;
+}
+
+header h1 {
+  color: white;
+  text-align: center;
+  font-family: var(--font01);
+  font-size: 3em;
+  text-shadow: 2px 2px 0 rgba(0, 0, 0, 0.11);
+}
+
+nav {
+  background-image: linear-gradient(to bottom, var(--cor01), var(--cor01));
+  padding: 10px;
+}
+
+nav a {
+  text-decoration: none;
+  color: white;
+  font-family: var(--font04);
+  font-size: 1em;
+  padding-left: 5px;
+  padding-right: 5px;
+  font-weight: bold;
+}
+
+main {
+  background-color: white;
+  margin: auto;
+  min-width: 300px;
+  padding: 10px;
+  margin-bottom: 5px;
+  max-height: 3000px;
+}
+
+main h1 {
+  font-family: var(--font01);
+  text-align: left;
+  font-size: 1.5em;
+  color: var(--cor03);
+  text-shadow: rgba(0, 0, 0, 0.295);
+}
+
+main strong {
+  color: var(--cor03);
+  text-shadow: rgba(0, 0, 0, 0.295);
+}
+
+main p {
+  text-align: justify;
+  margin: 15px 0px;
+  text-indent: 30px;
+  line-height: 2em;
+  font-size: 1.1em;
+  font-family: var(--font03);
+  font-weight: normal;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 1px solid black;
+  margin-right: 15px;
+  margin-left: 15px;
+}
+
+table caption {
+  font-family: var(--font01);
+  font-weight: normal;
+  font-size: 1.1em;
+  padding-bottom: 10px;
+  text-align: left;
+  text-align: justify;
+}
+
+tbody tr {
+  height: 20px;
+  border-bottom: 1px solid black;
+  background-color: white;
+  text-align: center;
+  font-family: var(--font04);
+  font-weight: normal;
+  font-size: 1.1em;
+  color: black;
+}
+
+tr:nth-child(even) {
+  background-color: #f2f2f2d3;
+}
+
+tr:hover {
+  background-color: coral;
+}
+
+.title {
+  height: 30px;
+  background-image: linear-gradient(to bottom, var(--cor03), var(--cor01));
+  text-shadow: rgba(0, 0, 0, 0.233);
+  color: white;
+  font-family: var(--font04);
+  font-weight: bolder;
+  font-size: 1.1em;
+}
+
+.formated {
+  margin-bottom: 30px;
+}
+
+.parcenter {
+  text-align: center;
+}
+
+strong.div {
+  text-align: center;
+}
+
+aside {
+  background-image: linear-gradient(to bottom, var(--cor03), var(--cor01));
+  border-radius: 5px;
+  padding-left: 5px;
+  margin-right: 1100px;
+  margin-top: 30px;
+}
+
+aside a {
+  text-decoration: none;
+  color: white;
+  font-family: var(--font04);
+}
+
+div.opn {
+  text-align: justify;
+}
+
+div.en {
+  text-align: center;
+}
+
+input[type="submit"] {
+  background-image: linear-gradient(to bottom, var(--cor03), var(--cor01));
+  color: #ffffff;
+  padding-left: 10px;
+  padding-bottom: 5px;
+  padding-top: 5px;
+  padding-right: 10px;
+  font-family: var(--font04);
+  font-size: 1em;
+  font-weight: bold;
+}
+
+input[type="radio"] {
+  color: var(--cor05);
+}
+
+label {
+  font-family: var(--font03);
+  font-size: 1.1em;
+  font-weight: normal;
+  color: var(--cor03);
+  text-shadow: rgba(0, 0, 0, 0.295);
+  margin-left: 60px;
+}
+
+#paraform {
+  color: black;
+  font-weight: normal;
+}
+
+footer {
+  background-image: linear-gradient(to bottom, var(--cor03), var(--cor01));
+  text-align: center;
+  font-size: 1em;
+  font-family: var(--font04);
+  font-weight: bold;
+  color: white;
+  padding-bottom: 5px;
+  padding-top: 5px;
+}

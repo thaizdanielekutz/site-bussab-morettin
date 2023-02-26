@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Estatística</title>
+    <link rel="stylesheet" href="style01.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Análise Exploratória de Dados</h1>
+    </header>
+    <nav>
+      <a href="index01.html">Tipos de Variáveis</a>
+      <a href="index02.html">Distribuições de Frequências</a>
+      <a href="index03.html">Saiba Mais</a>
+    </nav>
+    <main>
+      <article>
+        <h1><i>2.2 Distribuições de Frequências</i></h1>
+      <p>
+         Quando se estuda uma variável, o maior interesse do pesquisador é
+         conhecer o <i>comportamento</i> dessa variável, analisando a ocorrência de suas possíveis realizações. Nesta seção, veremos uma maneira de se dispor um conjunto de realizações, para se ter uma ideia global sobre elas, ou seja, de sua distribuição.
+      </p>
+      <p>
+            <strong>Exemplo 2.2</strong> A Tabela 2.2 apresenta a distribuição de frequências da variável grau de instrução, usando os dados da Tabela 2.1.
+      </p>
+      <table border="1px" class="formated">
+        <caption>
+          Tabela 2.2 Frequências e porcentagens dos 36 empregados da seção de
+          orçamentos da Companhia MB segundo o grau de instrução.
+        </caption>
+        <thead>
+          <tr class="title">
+            <th width="5%">Grau de Instrução</th>
+            <th width="5%">frequência</th>
+            <th width="5%"">Proporção</th>
+            <th width="5%">Porcetagem</th>
+          </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>fundamental</td> 
+                <td>12</td>
+                <td>0,3333</td>
+                <td>33,33</td>
+            </tr>
+            <tr>
+                <td>Médio</td> 
+                <td>18</td> 
+                <td>0,5000</td>
+                <td>50,00</td>
+            </tr>
+            <tr>
+                <td>Superior</td>
+                <td>6</td>
+                <td>0,1667</td>
+                <td>16,67</td>
+            </tr>
+            <tr>
+                <td>Total</td>  
+                <td>36</td>  
+                <td>1,0000</td>
+                <td>100,00</td> 
+            </tr>
+        </tbody>
+      </table>
+      <p>
+            Observando os resultados da segunda coluna, vê-se que dos 36 empregados da companhia, 12 têm o ensino fundamental, 18 o ensino médio e 6 possuem curso superior.
+      </p>
+      <p>
+            Uma medida bastante útil na interpretação de tabelas de frequências é a proporção de cada realização em relação ao total. Assim, 6/36 = 0,1667 dos empregados da companhia MB (seção de orçamentos) têm instrução superior. Na última coluna da Tabela 2.2 são apresentadas as porcentagens para cada realização da variável grau de instrução. Usaremos a notação ni para indicar a frequência (absoluta) de cada classe, ou categoria, da variável, e a notação fi = ni/n para indicar a proporção (ou frequência relativa) de cada classe, sendo n o número total de observações. As proporções são muito úteis quando se quer comparar resultados de duas pesquisas distintas. Por exemplo, suponhamos que se queira comparar a variável grau de instrução para empregados da seção de orçamentos com a mesma variável para todos os empregados da Companhia MB. Digamos que a empresa tenha 2.000 empregados e que a distribuição de frequências seja a da Tabela 2.3.
+      </p>
+      <table border="1px" class="formated">
+        <caption>
+            Tabela 2.3 Frequências e porcentagens dos 2.000 empregados da Companhia MB, segundo o grau de instrução.
+        </caption>
+        <thead>
+            <tr class="title">
+                <th width="5%">Grau de Instrução</th>
+                <th width="5%">Frequência</th>
+                <th width="5%">Porcentagem</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Fundamental</td>
+                <td>650</td>
+                <td>32,50</td>
+            </tr>
+            <tr>
+                <td>Médio</td>
+                <td>1.020</td>
+                <td>51,00</td>
+            </tr>
+            <tr>
+                <td>Superior</td>
+                <td>330</td>
+                <td>16,50</td>
+            </tr>
+            <tr>
+                <td>Total</td>
+                <td>2.000</td>
+                <td>100,00</td>
+            </tr>
+        </tbody>
+      </table>
+      <p>
+            Não podemos comparar diretamente as colunas das frequências das Tabelas 2.2 e 2.3, pois os totais de empregados são diferentes nos dois casos. Mas as colunas das porcentagens são comparáveis, pois reduzimos as frequências a um mesmo total (no caso 100).
+      </p>
+      <p>
+            A construção de tabelas de frequências para variáveis contínuas necessita de certo cuidado. Por exemplo, a construção da tabela de frequências para a variável salário, usando o mesmo procedimento acima, não resumirá as 36 observações num grupo menor, pois não existem observações iguais. A solução empregada é agrupar os dados por faixas de salário.
+      </p>
+      <p>
+            Exemplo 2.3 A Tabela 2.4 dá a distribuição de frequências dos salários dos 36 empregados da seção de orçamentos da Companhia MB por faixa de salários.
+      </p>
+
+      <table border="1px" class="formated">
+        <caption>
+            Tabela 2.4 Frequências e porcentagens dos 36 empregados da seção de orçamentos da Companhia MB por faixa de salário.
+        </caption>
+        <thead>
+            <tr class="title">
+                <th width="5%">Classe de Salários</th>
+                <th width="5%">Frequência</th>
+                <th width="5%">Porcentagem</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>04,00 |&#8211; 08,00</td>
+                <td>10</td>
+                <td>27,78</td>
+            </tr>
+            <tr>
+                <td> 08,00 |&#8211; 12,00</td>
+                <td>12</td>
+                <td>33,33</td>
+            </tr>
+            <tr>
+                <td>12,00 |&#8211; 16,00</td>
+                <td>8</td>
+                <td>22,22</td>
+            </tr>
+            <tr>
+                <td>16,00 |&#8211; 20,00</td>
+                <td>5</td>
+                <td>13,89</td>
+            </tr>
+            <tr>
+                <td>20,00 |&#8211; 24,00</td>
+                <td>1</td>
+                <td>2,78</td>
+            </tr>
+            <tr>
+                <td>Total</td>
+                <td>36</td>
+                <td>100,00</td>
+            </tr>
+        </tbody>
+      </table>
+      <p>
+            Procedendo-se desse modo, ao resumir os dados referentes a uma variável contínua, perde-se alguma informação. Por exemplo, não sabemos quais são os oito salários da classe de 12 a 16, a não ser que investiguemos a tabela original (Tabela 2.1). Sem perda de muita precisão, poderíamos supor que todos os oito salários daquela classe fossem iguais ao ponto médio da referida classe, isto é, 14 (o leitor pode verificar qual o erro cometido, comparando-os com os dados originais da Tabela 2.1). Voltaremos a este assunto no Capítulo 3. Note que estamos usando a notação a |&#8211; b para o intervalo de números contendo o extremo a, mas não contendo o extremo b. Podemos também usar a notação [a, b) para designar o mesmo intervalo a |&#8211; b.
+      </p>
+      <p>
+            A escolha dos intervalos é arbitrária e a familiaridade do pesquisador com os dados é que lhe indicará quantas e quais classes (intervalos) devem ser usadas. Entretanto, deve-se observar que, com um pequeno número de classes, perde-se informação, e com um número grande de classes, o objetivo de resumir os dados fica prejudicado. Estes dois extremos têm a ver, também, com o grau de suavidade da representação gráfica dos dados, a ser tratada a seguir, baseada nestas tabelas. Normalmente, sugere-se o uso de 5 a 15 classes com a mesma amplitude. O caso de classes com amplitudes diferentes é tratado no Problema 10.
+      </p>
+        <aside>
+            <p><a href="index02.html">Voltar ao topo!</a></p>
+        </aside>
+      </article>
+    </main>
+    <footer>
+      <p>Estatística Hard</p>
+    </footer>
+  </body>
+</html>
