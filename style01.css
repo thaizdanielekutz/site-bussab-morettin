@@ -102,6 +102,8 @@ table {
   border-spacing: 1px solid black;
   margin-right: 15px;
   margin-left: 15px;
+  min-width: 350;
+  max-height: 650px;
 }
 
 table caption {
@@ -147,12 +149,14 @@ tr:hover {
 }
 
 #scroll {
-  overflow-x: auto;
-  overflow-y: auto;
-  width: 1000px;
-  height: 300px;
+  overflow-x: scroll;
+  overflow-y: scroll;
+  min-width: 1000px;
+  height: 350px;
   background-color: white;
-  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 30px;
 }
 .parcenter {
   text-align: center;
