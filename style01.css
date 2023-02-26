@@ -39,7 +39,7 @@ header h1 {
   color: white;
   text-align: center;
   font-family: var(--font01);
-  font-size: 1.7em;
+  font-size: 3em;
   text-shadow: 2px 2px 0 rgba(0, 0, 0, 0.11);
 }
 
@@ -113,7 +113,7 @@ tbody tr {
   text-align: center;
   font-family: var(--font04);
   font-weight: normal;
-  font-size: 0.7em;
+  font-size: 1.1em;
   color: black;
 }
 
@@ -132,7 +132,7 @@ tr:hover {
   color: white;
   font-family: var(--font04);
   font-weight: bolder;
-  font-size: 0.8em;
+  font-size: 1.2em;
 }
 
 .formated {
