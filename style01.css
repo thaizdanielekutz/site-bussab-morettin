@@ -120,7 +120,7 @@ tbody tr {
   text-align: center;
   font-family: var(--font04);
   font-weight: normal;
-  font-size: 1.1em;
+  font-size: 0.9em;
   color: black;
 }
 
@@ -139,7 +139,7 @@ tr:hover {
   color: white;
   font-family: var(--font04);
   font-weight: bolder;
-  font-size: 1.2em;
+  font-size: 1em;
 }
 
 .formated {
@@ -196,7 +196,7 @@ input[type="radio"] {
 
 label {
   font-family: var(--font03);
-  font-size: 1.1em;
+  font-size: 0.8em;
   font-weight: normal;
   color: var(--cor03);
   text-shadow: rgba(0, 0, 0, 0.295);
