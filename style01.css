@@ -146,6 +146,14 @@ tr:hover {
   margin-bottom: 30px;
 }
 
+#scroll {
+  overflow-x: auto;
+  overflow-y: auto;
+  width: 1000px;
+  height: 300px;
+  background-color: white;
+  text-align: center;
+}
 .parcenter {
   text-align: center;
 }
